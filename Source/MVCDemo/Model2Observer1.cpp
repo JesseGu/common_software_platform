@@ -1,0 +1,18 @@
+// Model2Observer1.cpp: implementation of the CModel2Observer1 class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "Model2Observer1.h"
+#include "MyModel2.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+void CModel2Observer1::UpdateData(CSpxModel* pModel)
+{
+	CAwsString str;
+	str.LoadString(((CMyModel2*)pModel)->GetData());
+
+	SetText(str, true);
+}

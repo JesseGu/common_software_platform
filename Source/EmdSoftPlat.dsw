@@ -1,0 +1,191 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AWS_BaseCtrl"=".\AWS_BaseCtrl\AWS_BaseCtrl.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AWS_Core
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "AWS_Core"=".\AWS_Core\AWS_Core.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AWS_Mobile"=".\AWS_Mobile\AWS_Mobile.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AWS_BaseCtrl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MVCDemo"=".\MVCDemo\MVCDemo.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AWS_BaseCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Public
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MVCDemo_C"=".\MVCDemo_C\MVCDemo_C.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MobileDemo"=".\MobileDemo\MobileDemo.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AWS_Mobile
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Public
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MobileDemo_C"=".\MobileDemo_C\MobileDemo_C.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "OS_Base"=".\OS_Base\OS_Base.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Public"=".\Public\Public.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SPX"=".\SPX\SPX.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Win32Adapter"=".\Win32Adapter\Win32Adapter.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MobileDemo
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name OS_Base
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SPX
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Win32Adapter_C"=".\Win32Adapter_C\Win32Adapter_C.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MobileDemo_C
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

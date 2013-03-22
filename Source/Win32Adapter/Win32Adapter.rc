@@ -1,0 +1,278 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AwsDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AwsDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AwsDemo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "AwsDemo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2009 古继成",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "E-Mail:gujicheng197@126.com  QQ:29600731",IDC_STATIC,40,
+                    40,188,8
+END
+
+IDD_AWSDEMO_DIALOG DIALOGEX 0, 0, 213, 394
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "EmdSoftwarePlatform1.0 For Mobile"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "左菜单",IDC_LEFTMENU,32,232,30,14
+    PUSHBUTTON      "右菜单",IDC_RIGHTMENU,148,232,30,14
+    PUSHBUTTON      "左",IDC_LEFT,50,260,30,14
+    PUSHBUTTON      "确认",IDC_ENTER,90,260,30,14
+    PUSHBUTTON      "上",IDC_UP,90,240,30,14
+    PUSHBUTTON      "右",IDC_RIGHT,130,260,30,14
+    PUSHBUTTON      "下",IDC_DOWN,90,280,30,14
+    PUSHBUTTON      "1",IDC_ONE,43,304,30,14
+    PUSHBUTTON      "2",IDC_TWO,90,304,30,14
+    PUSHBUTTON      "3",IDC_THREE,137,304,30,14
+    PUSHBUTTON      "4",IDC_FOUR,43,325,30,14
+    PUSHBUTTON      "5",IDC_FIVE,90,325,30,14
+    PUSHBUTTON      "6",IDC_SIX,137,325,30,14
+    PUSHBUTTON      "7",IDC_SEVEN,43,345,30,14
+    PUSHBUTTON      "8",IDC_EIGHT,90,345,30,14
+    PUSHBUTTON      "9",IDC_NINE,137,345,30,14
+    PUSHBUTTON      "*",IDC_STAR,43,366,30,14
+    PUSHBUTTON      "0",IDC_ZERO,90,366,30,14
+    PUSHBUTTON      "#",IDC_WELL,137,366,30,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AwsDemo Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AwsDemo\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AwsDemo.EXE\0"
+            VALUE "ProductName", "AwsDemo 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_AWSDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        VERTGUIDE, 62
+        VERTGUIDE, 73
+        VERTGUIDE, 80
+        VERTGUIDE, 90
+        VERTGUIDE, 120
+        VERTGUIDE, 130
+        VERTGUIDE, 137
+        VERTGUIDE, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 387
+        HORZGUIDE, 232
+        HORZGUIDE, 254
+        HORZGUIDE, 274
+        HORZGUIDE, 304
+        HORZGUIDE, 318
+        HORZGUIDE, 325
+        HORZGUIDE, 339
+        HORZGUIDE, 345
+        HORZGUIDE, 359
+        HORZGUIDE, 366
+        HORZGUIDE, 380
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAIN9               BITMAP  DISCARDABLE     "res\\Main9.bmp"
+IDB_MAIN1               BITMAP  DISCARDABLE     "res\\Main1.bmp"
+IDB_MAIN2               BITMAP  DISCARDABLE     "res\\Main2.bmp"
+IDB_MAIN3               BITMAP  DISCARDABLE     "res\\Main3.bmp"
+IDB_MAIN4               BITMAP  DISCARDABLE     "res\\Main4.bmp"
+IDB_MAIN5               BITMAP  DISCARDABLE     "res\\Main5.bmp"
+IDB_MAIN6               BITMAP  DISCARDABLE     "res\\Main6.bmp"
+IDB_MAIN7               BITMAP  DISCARDABLE     "res\\Main7.bmp"
+IDB_MAIN8               BITMAP  DISCARDABLE     "res\\Main8.bmp"
+IDB_MAIN12              BITMAP  DISCARDABLE     "res\\Main12.bmp"
+IDB_MAIN10              BITMAP  DISCARDABLE     "res\\Main10.bmp"
+IDB_MAIN11              BITMAP  DISCARDABLE     "res\\Main11.bmp"
+IDB_MENUBAR             BITMAP  DISCARDABLE     "res\\MemuBar.bmp"
+IDB_TITLEBAR            BITMAP  DISCARDABLE     "res\\TitleBar.bmp"
+IDB_MAINMASK            BITMAP  DISCARDABLE     "res\\MainMask.bmp"
+IDB_TITLEMASK           BITMAP  DISCARDABLE     "res\\TitleMask.bmp"
+IDB_TITLEICON           BITMAP  DISCARDABLE     "res\\TitleIcon.bmp"
+IDB_TABITEMSELBK        BITMAP  DISCARDABLE     "res\\TabItemSelBK.bmp"
+IDB_TABITEMSELBKMASK    BITMAP  DISCARDABLE     "res\\TabItemSelBKMask.bmp"
+IDB_TABPANELBK          BITMAP  DISCARDABLE     "res\\TabPanelBK.bmp"
+IDB_RADIOSELFOCUS       BITMAP  DISCARDABLE     "res\\RadioSelFocus.bmp"
+IDB_RADIO               BITMAP  DISCARDABLE     "res\\Radio.bmp"
+IDB_RADIOFOCUS          BITMAP  DISCARDABLE     "res\\RadioFocus.bmp"
+IDB_RADIOMASK           BITMAP  DISCARDABLE     "res\\RadioMask.bmp"
+IDB_RADIOSEL            BITMAP  DISCARDABLE     "res\\RadioSel.bmp"
+IDB_CHECKSELFOCUS       BITMAP  DISCARDABLE     "res\\CheckSelFocus.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "res\\Check.bmp"
+IDB_CHECKFOCUS          BITMAP  DISCARDABLE     "res\\CheckFocus.bmp"
+IDB_CHECKMASK           BITMAP  DISCARDABLE     "res\\CheckMask.bmp"
+IDB_CHECKSEL            BITMAP  DISCARDABLE     "res\\CheckSel.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 AwsDemo(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AwsDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

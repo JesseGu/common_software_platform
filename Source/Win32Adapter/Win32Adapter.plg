@@ -1,0 +1,306 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AWS_Core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\SPX" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"..\..\Intermediate\AWS_Core\Release/AWS_Core.pch" /YX /Fo"..\..\Intermediate\AWS_Core\Release/" /Fd"..\..\Intermediate\AWS_Core\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\AWS_Core\AwsContainer.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Core\AwsPubClass.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Core\AwsUi.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Core\AwsWindow.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74E.tmp" with contents
+[
+/nologo /out:"..\..\Bin\AWS_Core\Release\AWS_Core.lib" 
+"\通用软件系统平台\开源\Intermediate\AWS_Core\Release\AwsContainer.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Core\Release\AwsPubClass.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Core\Release\AwsUi.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Core\Release\AwsWindow.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74E.tmp"
+<h3>Output Window</h3>
+Compiling...
+AwsContainer.cpp
+AwsPubClass.cpp
+AwsUi.cpp
+AwsWindow.cpp
+Creating library...
+<h3>
+--------------------Configuration: AWS_BaseCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Core" /I "..\OS_Base" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\AWS_BaseCtrl\Release/AWS_BaseCtrl.pch" /YX /Fo"..\..\Intermediate\AWS_BaseCtrl\Release/" /Fd"..\..\Intermediate\AWS_BaseCtrl\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BButton.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BCheckBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BComboBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BEdit.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BImageButton.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BLabel.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BListBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BListView.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BMenu.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BMenuContainer.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BProgressBar.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BRadioBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BScrollBar.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BSelectBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BTabPanel.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BTabView.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BTitleBar.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_BaseCtrl\BTreeView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP750.tmp" with contents
+[
+/nologo /out:"..\..\Bin\AWS_BaseCtrl\Release\AWS_BaseCtrl.lib" 
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BButton.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BCheckBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BComboBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BEdit.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BImageButton.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BLabel.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BListBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BListView.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BMenu.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BMenuContainer.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BProgressBar.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BRadioBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BScrollBar.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BSelectBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BTabPanel.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BTabView.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BTitleBar.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_BaseCtrl\Release\BTreeView.obj"
+"\通用软件系统平台\开源\Bin\AWS_Core\Release\AWS_Core.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP750.tmp"
+<h3>Output Window</h3>
+Compiling...
+BButton.cpp
+BCheckBox.cpp
+BComboBox.cpp
+BEdit.cpp
+BImageButton.cpp
+BLabel.cpp
+BListBox.cpp
+BListView.cpp
+BMenu.cpp
+BMenuContainer.cpp
+BProgressBar.cpp
+BRadioBox.cpp
+BScrollBar.cpp
+BSelectBox.cpp
+BTabPanel.cpp
+BTabView.cpp
+BTitleBar.cpp
+BTreeView.cpp
+Creating library...
+<h3>
+--------------------Configuration: AWS_Mobile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP751.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Core" /I "..\AWS_BaseCtrl" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\AWS_Mobile\Release/AWS_Mobile.pch" /YX /Fo"..\..\Intermediate\AWS_Mobile\Release/" /Fd"..\..\Intermediate\AWS_Mobile\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MImageBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MMainContainer.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MMenuBar.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MMsgBox.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MScrollLabel.cpp"
+"D:\通用软件系统平台\开源\Source\AWS_Mobile\MUi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP751.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP752.tmp" with contents
+[
+/nologo /out:"..\..\Bin\AWS_Mobile\Release\AWS_Mobile.lib" 
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MImageBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MMenuBar.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MMsgBox.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MScrollLabel.obj"
+"\通用软件系统平台\开源\Intermediate\AWS_Mobile\Release\MUi.obj"
+"\通用软件系统平台\开源\Bin\AWS_BaseCtrl\Release\AWS_BaseCtrl.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP752.tmp"
+<h3>Output Window</h3>
+Compiling...
+MImageBox.cpp
+MMainContainer.cpp
+MMenuBar.cpp
+MMsgBox.cpp
+MScrollLabel.cpp
+MUi.cpp
+Creating library...
+<h3>
+--------------------Configuration: Public - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP753.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\Public\Release/Public.pch" /YX /Fo"..\..\Intermediate\Public\Release/" /Fd"..\..\Intermediate\Public\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\Public\EspPubClass.cpp"
+"D:\通用软件系统平台\开源\Source\Public\EspString.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP753.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\Bin\Public\Release\Public.lib"  "\通用软件系统平台\开源\Intermediate\Public\Release\EspPubClass.obj" "\通用软件系统平台\开源\Intermediate\Public\Release\EspString.obj" "
+<h3>Output Window</h3>
+Compiling...
+EspPubClass.cpp
+EspString.cpp
+Creating library...
+<h3>
+--------------------Configuration: MobileDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP754.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Mobile" /I "..\AWS_Core" /I "..\AWS_Base" /I "..\SPX" /I "..\AWS_BaseCtrl" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\MobileDemo\Release/MobileDemo.pch" /YX /Fo"..\..\Intermediate\MobileDemo\Release/" /Fd"..\..\Intermediate\MobileDemo\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\MobileDemo\MyApp.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\MyMainContainer.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\MyUi.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabMainContainer.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage1.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage2.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage3.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage4.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage5.cpp"
+"D:\通用软件系统平台\开源\Source\MobileDemo\TabPage6.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP754.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP755.tmp" with contents
+[
+/nologo /out:"..\..\Bin\MobileDemo\Release\MobileDemo.lib" 
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\MyApp.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\MyMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\MyUi.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage1.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage2.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage3.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage4.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage5.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo\Release\TabPage6.obj"
+"\通用软件系统平台\开源\Bin\AWS_Mobile\Release\AWS_Mobile.lib"
+"\通用软件系统平台\开源\Bin\Public\Release\Public.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP755.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyApp.cpp
+MyMainContainer.cpp
+MyUi.cpp
+TabMainContainer.cpp
+TabPage1.cpp
+TabPage2.cpp
+TabPage3.cpp
+TabPage4.cpp
+TabPage5.cpp
+TabPage6.cpp
+Creating library...
+<h3>
+--------------------Configuration: OS_Base - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP756.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\OS_Base\Release/OS_Base.pch" /YX /Fo"..\..\Intermediate\OS_Base\Release/" /Fd"..\..\Intermediate\OS_Base\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\OS_Base\Os.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP756.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\Bin\OS_Base\Release\OS_Base.lib"  "\通用软件系统平台\开源\Intermediate\OS_Base\Release\Os.obj" "
+<h3>Output Window</h3>
+Compiling...
+Os.cpp
+Creating library...
+<h3>
+--------------------Configuration: SPX - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP757.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Core" /I "..\OS_Base" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\..\Intermediate\SPX\Release/SPX.pch" /YX /Fo"..\..\Intermediate\SPX\Release/" /Fd"..\..\Intermediate\SPX\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\SPX\SPXApp.cpp"
+"D:\通用软件系统平台\开源\Source\SPX\SPXController.cpp"
+"D:\通用软件系统平台\开源\Source\SPX\SPXModel.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP757.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\Bin\SPX\Release\SPX.lib"  "\通用软件系统平台\开源\Intermediate\SPX\Release\SPXApp.obj" "\通用软件系统平台\开源\Intermediate\SPX\Release\SPXController.obj" "\通用软件系统平台\开源\Intermediate\SPX\Release\SPXModel.obj" "
+<h3>Output Window</h3>
+Compiling...
+SPXApp.cpp
+SPXController.cpp
+SPXModel.cpp
+Creating library...
+<h3>
+--------------------Configuration: Win32Adapter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\..\Intermediate\Win32Adapter\Release/Win32Adapter.res" /d "NDEBUG" /d "_AFXDLL" "D:\通用软件系统平台\开源\Source\Win32Adapter\Win32Adapter.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP758.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Core" /I "..\AWS_Mobile" /I "..\AWS_BaseCtrl" /I "..\SPX" /I "..\OS_Base" /I "..\MVCDemo" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"..\..\Intermediate\Win32Adapter\Release/" /Fd"..\..\Intermediate\Win32Adapter\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\Win32Adapter\EMyui.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\EScreen.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\EWndGc.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\Win32Adapter.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\Win32AdapterDlg.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\Win32File.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\Win32Os.cpp"
+"D:\通用软件系统平台\开源\Source\Win32Adapter\Win32Thread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP758.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP759.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Public" /I "..\AWS_Core" /I "..\AWS_Mobile" /I "..\AWS_BaseCtrl" /I "..\SPX" /I "..\OS_Base" /I "..\MVCDemo" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"..\..\Intermediate\Win32Adapter\Release/Win32Adapter.pch" /Yc"stdafx.h" /Fo"..\..\Intermediate\Win32Adapter\Release/" /Fd"..\..\Intermediate\Win32Adapter\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\Win32Adapter\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP759.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"..\..\Bin\Win32Adapter\Release/Win32Adapter.pdb" /machine:I386 /out:"..\..\Bin\Win32Adapter\Release/Win32Adapter.exe" 
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\EMyui.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\EScreen.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\EWndGc.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\StdAfx.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32Adapter.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32AdapterDlg.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32File.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32Os.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32Thread.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter\Release\Win32Adapter.res"
+"\通用软件系统平台\开源\Bin\MobileDemo\Release\MobileDemo.lib"
+"\通用软件系统平台\开源\Bin\OS_Base\Release\OS_Base.lib"
+"\通用软件系统平台\开源\Bin\SPX\Release\SPX.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EMyui.cpp
+EScreen.cpp
+EWndGc.cpp
+Win32Adapter.cpp
+Win32AdapterDlg.cpp
+Win32File.cpp
+Win32Os.cpp
+Win32Thread.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Win32Adapter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

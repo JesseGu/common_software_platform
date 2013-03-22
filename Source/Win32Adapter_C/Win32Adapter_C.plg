@@ -1,0 +1,244 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MobileDemo_C - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP747.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"..\..\Intermediate\MobileDemo_C\Release/MobileDemo_C.pch" /YX /Fo"..\..\Intermediate\MobileDemo_C\Release/" /Fd"..\..\Intermediate\MobileDemo_C\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsContainer.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsPubClass.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsUi.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsWindow.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BButton.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BCheckBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BComboBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BEdit.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BImageButton.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BLabel.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BListBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BListView.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BMenu.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BMenuContainer.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BProgressBar.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BRadioBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BScrollBar.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BSelectBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BTabPanel.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BTabView.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BTitleBar.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\BTreeView.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\EspPubClass.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\EspString.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MImageBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MMainContainer.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MMenuBar.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MMsgBox.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MScrollLabel.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MUi.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MyApp.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MyMainContainer.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\MyUi.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\Os.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXApp.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXController.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXModel.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabMainContainer.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage1.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage2.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage3.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage4.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage5.c"
+"D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage6.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP747.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP748.tmp" with contents
+[
+/nologo /out:"..\..\Bin\MobileDemo_C\Release\MobileDemo_C.lib" 
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\AwsContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\AwsPubClass.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\AwsUi.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\AwsWindow.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BButton.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BCheckBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BComboBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BEdit.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BImageButton.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BLabel.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BListBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BListView.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BMenu.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BMenuContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BProgressBar.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BRadioBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BScrollBar.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BSelectBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BTabPanel.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BTabView.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BTitleBar.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\BTreeView.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\EspPubClass.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\EspString.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MImageBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MMenuBar.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MMsgBox.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MScrollLabel.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MUi.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MyApp.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MyMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\MyUi.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\Os.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\SPXApp.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\SPXController.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\SPXModel.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabMainContainer.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage1.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage2.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage3.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage4.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage5.obj"
+"\通用软件系统平台\开源\Intermediate\MobileDemo_C\Release\TabPage6.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP748.tmp"
+<h3>Output Window</h3>
+Compiling...
+AwsContainer.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsContainer.c(63) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsContainer.c(91) : warning C4013: 'free' undefined; assuming extern returning int
+AwsPubClass.c
+AwsUi.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsUi.c(28) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\AwsUi.c(51) : warning C4013: 'free' undefined; assuming extern returning int
+AwsWindow.c
+BButton.c
+BCheckBox.c
+BComboBox.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BComboBox.c(120) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BComboBox.c(159) : warning C4013: 'free' undefined; assuming extern returning int
+BEdit.c
+BImageButton.c
+BLabel.c
+BListBox.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BListBox.c(71) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BListBox.c(115) : warning C4013: 'free' undefined; assuming extern returning int
+BListView.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BListView.c(95) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BListView.c(153) : warning C4013: 'free' undefined; assuming extern returning int
+BMenu.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BMenu.c(49) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BMenu.c(83) : warning C4013: 'free' undefined; assuming extern returning int
+BMenuContainer.c
+BProgressBar.c
+BRadioBox.c
+BScrollBar.c
+BSelectBox.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BSelectBox.c(67) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BSelectBox.c(109) : warning C4013: 'free' undefined; assuming extern returning int
+BTabPanel.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BTabPanel.c(43) : warning C4013: 'malloc' undefined; assuming extern returning int
+BTabView.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BTabView.c(31) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\BTabView.c(57) : warning C4013: 'free' undefined; assuming extern returning int
+BTitleBar.c
+BTreeView.c
+EspPubClass.c
+EspString.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\EspString.c(32) : warning C4013: 'free' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\EspString.c(307) : warning C4013: 'malloc' undefined; assuming extern returning int
+MImageBox.c
+MMainContainer.c
+MMenuBar.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MMenuBar.c(69) : warning C4013: 'malloc' undefined; assuming extern returning int
+MMsgBox.c
+MScrollLabel.c
+MUi.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MUi.c(39) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MUi.c(63) : warning C4013: 'free' undefined; assuming extern returning int
+MyApp.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MyApp.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+MyMainContainer.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MyMainContainer.c(37) : warning C4013: 'malloc' undefined; assuming extern returning int
+MyUi.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\MyUi.c(46) : warning C4013: 'malloc' undefined; assuming extern returning int
+Os.c
+SPXApp.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXApp.c(76) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXApp.c(91) : warning C4013: 'free' undefined; assuming extern returning int
+SPXController.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXController.c(27) : warning C4013: 'free' undefined; assuming extern returning int
+SPXModel.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXModel.c(24) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\通用软件系统平台\开源\Source\MobileDemo_C\SPXModel.c(34) : warning C4013: 'free' undefined; assuming extern returning int
+TabMainContainer.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabMainContainer.c(43) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage1.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage1.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage2.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage2.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage3.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage3.c(32) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage4.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage4.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage5.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage5.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+TabPage6.c
+D:\通用软件系统平台\开源\Source\MobileDemo_C\TabPage6.c(30) : warning C4013: 'malloc' undefined; assuming extern returning int
+Creating library...
+<h3>
+--------------------Configuration: Win32Adapter_C - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\..\Intermediate\Win32Adapter_C\Release/Win32Adapter_C.res" /d "NDEBUG" "D:\通用软件系统平台\开源\Source\Win32Adapter_C\Win32Adapter_C.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP749.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\MobileDemo_C" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\Intermediate\Win32Adapter_C\Release/Win32Adapter_C.pch" /Yu"stdafx.h" /Fo"..\..\Intermediate\Win32Adapter_C\Release/" /Fd"..\..\Intermediate\Win32Adapter_C\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\EMyui.c"
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\EScreen.c"
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\EWndGc.c"
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\Win32Os.c"
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\Win32Adapter_C.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP749.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74A.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\MobileDemo_C" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\Intermediate\Win32Adapter_C\Release/Win32Adapter_C.pch" /Yc /Fo"..\..\Intermediate\Win32Adapter_C\Release/" /Fd"..\..\Intermediate\Win32Adapter_C\Release/" /FD /c 
+"D:\通用软件系统平台\开源\Source\Win32Adapter_C\StdAfx.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\..\Bin\Win32Adapter_C\Release/Win32Adapter_C.pdb" /machine:I386 /out:"..\..\Bin\Win32Adapter_C\Release/Win32Adapter_C.exe" 
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\EMyui.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\EScreen.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\EWndGc.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\StdAfx.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\Win32Os.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\Win32Adapter_C.obj"
+"\通用软件系统平台\开源\Intermediate\Win32Adapter_C\Release\Win32Adapter_C.res"
+"\通用软件系统平台\开源\Bin\MobileDemo_C\Release\MobileDemo_C.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP74B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.c
+Compiling...
+EMyui.c
+EScreen.c
+EWndGc.c
+Win32Os.c
+Win32Adapter_C.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Win32Adapter_C.exe - 0 error(s), 37 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,176 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_AWSDEMO_C           ICON    DISCARDABLE     "Win32Adapter_C.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_AWSDEMO_C MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_AWSDEMO_C ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_AWSDEMO_C,IDC_MYICON,14,9,16,16
+    LTEXT           "AwsDemo_C Version 1.0",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHECKSELFOCUS       BITMAP  DISCARDABLE     "CheckSelFocus.bmp"
+IDB_MAIN1               BITMAP  DISCARDABLE     "Main1.bmp"
+IDB_MAIN2               BITMAP  DISCARDABLE     "Main2.bmp"
+IDB_MAIN3               BITMAP  DISCARDABLE     "Main3.bmp"
+IDB_MAIN4               BITMAP  DISCARDABLE     "Main4.bmp"
+IDB_MAIN5               BITMAP  DISCARDABLE     "Main5.bmp"
+IDB_MAIN6               BITMAP  DISCARDABLE     "Main6.bmp"
+IDB_MAIN7               BITMAP  DISCARDABLE     "Main7.bmp"
+IDB_MAIN8               BITMAP  DISCARDABLE     "Main8.bmp"
+IDB_MAIN9               BITMAP  DISCARDABLE     "Main9.bmp"
+IDB_MAIN10              BITMAP  DISCARDABLE     "Main10.bmp"
+IDB_MAIN11              BITMAP  DISCARDABLE     "Main11.bmp"
+IDB_MAIN12              BITMAP  DISCARDABLE     "Main12.bmp"
+IDB_MAINMASK            BITMAP  DISCARDABLE     "MainMask.bmp"
+IDB_MENUBAR             BITMAP  DISCARDABLE     "MemuBar.bmp"
+IDB_RADIO               BITMAP  DISCARDABLE     "Radio.bmp"
+IDB_RADIOFOCUS          BITMAP  DISCARDABLE     "RadioFocus.bmp"
+IDB_RADIOMASK           BITMAP  DISCARDABLE     "RadioMask.bmp"
+IDB_RADIOSEL            BITMAP  DISCARDABLE     "RadioSel.bmp"
+IDB_CHECKSEL            BITMAP  DISCARDABLE     "CheckSel.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "Check.bmp"
+IDB_CHECKFOCUS          BITMAP  DISCARDABLE     "CheckFocus.bmp"
+IDB_CHECKMASK           BITMAP  DISCARDABLE     "CheckMask.bmp"
+IDB_RADIOSELFOCUS       BITMAP  DISCARDABLE     "RadioSelFocus.bmp"
+IDB_TITLEMASK           BITMAP  DISCARDABLE     "TitleMask.bmp"
+IDB_TABITEMSELBK        BITMAP  DISCARDABLE     "TabItemSelBK.bmp"
+IDB_TABITEMSELBKMASK    BITMAP  DISCARDABLE     "TabItemSelBKMask.bmp"
+IDB_TABPANELBK          BITMAP  DISCARDABLE     "TabPanelBK.bmp"
+IDB_TITLEBAR            BITMAP  DISCARDABLE     "TitleBar.bmp"
+IDB_TITLEICON           BITMAP  DISCARDABLE     "TitleIcon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "EmdSoftwarePlatform_C1.0 For Mobile"
+    IDS_HELLO               "Hello World!"
+    IDC_AWSDEMO_C           "AWSDEMO_C"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
